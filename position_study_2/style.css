@@ -48,50 +48,55 @@
   }
   
   #prev {
-    background-image: url(./assets/icon-backward.svg);
+    background-image: url(./img/icon-backward.svg);
   }
   
   #next {
-    background-image: url(./assets/icon-forward.svg);
+    background-image: url(./img/icon-forward.svg);
   }
   
   /* ▼ WHERE YOUR CODE BEGINS */
 
   .card{
-      width: 400px;
-      height: 354px;
-      position: relative;
-      background-color: white;
+    width : 400px;
   }
 
   .card-carousel{
-      width: 400px;
-      height: 240px;
-      position: absolute;
+    position: relative;
   }
 
   .card-carousel img{
-      width: 407px;
-      height: 270px;
-      left: -7px;
-      top: -30px;
-      position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #prev, #next{
+    position: absolute;
+    transform: translateY(-50%);
+  }
+
+  #prev{
+    left: 0;
+    top: 50%;
+  }
+
+  #next{
+    right: 0;
+    top: 50%;
+  }
+
+  .card-content h1{
+    margin-bottom: 2px;
+  }
+
+  .card-content strong{
+    display: block;
+    margin-top: 8px;
+    text-align: right;
   }
 
   .card-content{
-      position: absolute;
-      width: 400px;
-      height: 114px;
-      left: 0px;
-      top: 240px;
-  }
-
-  .card-content{
-      padding: 12px 19px 70px 16px;
-  }
-
-  strong{
-      position: absolute;
-      left: 249px;
-      top: 78px;
+    padding: 12px 19px 12px 16px;
+    background-color: #FFF;
   }
