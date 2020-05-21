@@ -48,8 +48,9 @@ a {
 
 .tab-menu{
   display: flex;
+  /* 기본값으로 설정되어 있음
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: flex-start; */
   align-items: center; 
 }
