@@ -33,14 +33,18 @@ body{
 }
 
 .progress-bar{
+    position: relative;
     width: 300px;
     height: 12px;
     background-color: #E5EAEF;
     border-radius: 100px;
+    overflow: hidden;
 }
 
 .progress-bar-gauge{
-    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 0;
     height: 100%;
     border-radius: 100px;
@@ -51,19 +55,25 @@ body{
 }
 
 @keyframes gauge{
-    from{
-        width: 0;        
+    0%{
+        width: 0;  
+        opacity: 1;      
     }
-    to{
+    90%{
         width: 100%;
+        opacity: 1;
+    }
+    100%{
+        width: 100%;
+        opacity: 0;
     }
 }
 
 @keyframes loading{
     from{
-        opacity: initial;
+        opacity: 1;
     }
     to{
-        opacity: 0.2;
+        opacity: 0;
     }
 }
