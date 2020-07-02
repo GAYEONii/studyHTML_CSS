@@ -54,7 +54,7 @@ p {
 }
 
 /* landing */
-.landing{
+.landing .container{
   background-color: #FDDED8;
   display: flex;
   flex-direction: column;
@@ -134,3 +134,232 @@ p {
 
 /* program */
 
+.program .container{
+  height: 1377px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.program .row{
+  padding: 0 15px;
+}
+
+.program .header h6{
+  color: #009B4D;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.program .header h1{
+  font-size: 34px;
+  line-height: 1.058823;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.programs .program-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 291px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.programs .img-box{
+  background-size: cover;                     
+  background-repeat: no-repeat;
+  height: 195px;
+  margin-bottom: 16px;
+}
+
+.full-campus{
+  background-image: url('./assets/img-fulltime-campus.png');
+  width: 142.21px;
+}
+
+.full-remote{
+  background-image: url('./assets/img-fulltime-remote.png');
+  width: 146.06px;
+}
+
+.parttime{
+  background-image: url('./assets/img-parttime-flex.png');
+  width: 122.4px;
+}
+
+.program-box h6{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* curriculum */
+.curriculum .container{
+  height: 706px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.curriculum .row{
+  padding: 0 15px;
+}
+
+.curriculum .header h6{
+  color: #0189D1;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.curriculum .header h1{
+  font-size: 34px;
+  line-height: 1.058823;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+
+.curriculum .header p{
+  margin-bottom: 32px;
+}
+
+.curriculum .header a{
+  display: block;
+  width: 140px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #3040C4;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  padding: 12px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.curriculum .details p{
+  margin-bottom: 40px;
+}
+
+/* banner */
+
+.banner .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F8FA;
+  height: 588px;
+}
+
+.banner .row{
+  padding: 0 15px;
+}
+
+.banner .CTAimage{
+  width: 290px;
+  height: 240px;
+}
+
+.banner .banner-img {
+  background-image: url('./assets/img-banner.png');
+  width: 191.48px;
+  height: 190px;
+  margin: auto;
+  background-size: cover;                     
+  background-repeat: no-repeat;
+}
+
+.banner .header h1{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 16px;
+  text-align: center;
+  margin: 16px auto;
+}
+
+.banner .header p{
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.banner .form{
+  display: flex;
+  flex-direction: column;
+}
+
+.banner .form input{
+  width: 290px;
+  height: 48px;
+  color: #7B7B7E;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  padding :12px 16px;
+  margin-bottom: 8px;
+}
+
+.banner .form a{
+  width: 290px;
+  height: 48px;
+  background: #3040C4;
+  color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  padding: 12px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.banner .form p{
+  text-align: center;
+  color: #7B7B7E;
+  font-size: 13px;
+  line-height: 1.53846;
+}
+
+.banner .form strong{
+  color: #3040C4;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/* footer */
+.footer .container{
+  width: 320px;
+  height: 136px;
+}
+
+.footer .row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 15px;
+}
+
+.footer a{
+  display: block;
+  color: #807F81;
+  font-size: 14px;
+  line-height: 1.71428;
+  margin-bottom: 8px; 
+}
