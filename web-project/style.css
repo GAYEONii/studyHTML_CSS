@@ -203,6 +203,7 @@ p {
 .program-box:hover{
   background-color: #3141C5;
   color: #FFFFFF;
+  transition-duration: 0.5s; 
 }
 
 .programs .img-box{
@@ -337,19 +338,20 @@ p {
   background-repeat: no-repeat;
 }
 
+.banner .header{
+  text-align: center;
+}
+
 .banner .header h1{
   font-weight: 700;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.05em;
   margin-bottom: 16px;
-  text-align: center;
-  margin: 16px auto;
 }
 
 .banner .header p{
   margin-bottom: 24px;
-  text-align: center;
 }
 
 .banner .form{
@@ -383,14 +385,15 @@ p {
   margin-bottom: 8px;
 }
 
-.banner .form p{
+
+.banner .misc p{
   text-align: center;
   color: #7B7B7E;
   font-size: 13px;
   line-height: 1.53846;
 }
 
-.banner .form strong{
+.banner .misc strong{
   color: #3040C4;
   font-weight: 400;
   text-decoration: underline;
@@ -402,14 +405,14 @@ p {
   height: 136px;
 }
 
-.footer .row{
+.footer .row ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 24px 15px;
 }
 
-.footer a{
+.footer li{
   display: block;
   color: #807F81;
   font-size: 14px;
@@ -510,7 +513,56 @@ p {
     width: 450px;
   }
 
+
+  .banner {
+    height: 460px;
+  }
+
+  .banner .CTAimage{
+    margin-right: 30px;
+  }
+
   .banner .container{
     flex-direction: row;
+  }
+
+  .banner .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .banner .header{
+    text-align: left;
+  }
+
+  .banner .header h1{
+    font-size: 40px;
+  }
+
+  .banner .form {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .banner .form input{
+    margin-right: 8px;
+  }
+
+  .banner .form a{
+    width: 160px;
+  }
+
+  .footer .container{
+    margin: 16px 255px;
+  }
+
+  .footer .row ul{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .footer .row li{
+    margin-right: 16px;
   }
 }
