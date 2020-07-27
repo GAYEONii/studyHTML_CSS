@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Reset CSS */
+a {
+  color: inherit; /* inherit: 부모의 색을 상속받는 것 */
+  text-decoration: none;
+}
+
+button, input, textarea {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+}
+
+button:focus, button:active,
+input:focus, input:active,
+textarea:focus, textarea:active {
+  outline: none;
+  box-shadow: none;
+}
+
+ul, ol, li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2B292D;
+  letter-spacing: -0.01em;
+}
+
+.fill-button{
+  width: 140px;
+  height: 48px;
+  background-color: #3040c4;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  transition: opacity 300ms ease-in-out;
+}
+
+.fill-button.inverted {
+  background-color: #fff;
+  color: #3040c4;
+}
+
+.fill-button:hover{
+  opacity: 0.5;
+}
+
+/* Landing */
+.landing{
+  background-color: #fdded8;
+  text-align: center;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-title{
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #2B292D;
+}
+
+.landing .button-group .fill-button:first-child{
+  margin-right: 8px;
+}
+
+.landging-desc{
+  margin-bottom: 20px;
+}
+
+.landing .button-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* >= 768px (desktop) */
+@media screen and (min-width: 768px){
+  p{
+    font-size: 22px;
+    line-height: 1.3636363636;
+  }
+
+  .fill-button{
+    width: 160px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.5555555556
+  }
+
+  /* Landing */
+  .landing-content {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .landing-title{
+    font-size: 70px;
+    line-height: 1.0285714;
+    margin-bottom: 32px;
+  }
+
+  .landing-desc{
+    margin-bottom: 32px;
+  }
+
+  .landing .button-group .fill-button:first-child{
+    margin-right: 16px;
+  }
+}
+
+/* Custom Grid System - Fix container width */
+@media screen and (min-width: 1200px){
+  .container {
+    max-width: 960px !important;
+  }
+}

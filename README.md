@@ -1,8 +1,8 @@
-# study HTML_CSS
+# study-CSS
 
-CSS 공부 ( 인강: 김버그의 CSS는 재밌다. )
+CSS 공부 강의: 김버그의 CSS는 재밌다. 
 
-##### 2020년 4월 14일 ~ 
+##### - 공부 목차
 
 1. Float
 2. Position
@@ -13,5 +13,10 @@ CSS 공부 ( 인강: 김버그의 CSS는 재밌다. )
 7. Background
 8. Transition & Animation
 9. Box-shadow & Opacity & Overflow & Transform & Visibility
-10. gridSystem & Bootstrap
-11. 
+10. GridSystem & Bootstrap
+11. Final Project
+
+
+
+
+
